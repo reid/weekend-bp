@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://mobile.yahoo.com/widgets/schema/1.0/config/ http://mobile.yahoo.com/widgets/schema/1.0/config/"
+	xmlns="http://mobile.yahoo.com/widgets/schema/1.0/config/">
+	<title>Foodr</title>
+	<version>1.0</version>
+	<identifier>foodr</identifier>
+	<description>Rate menu items from restaurants.</description>
+	<icon>icon</icon>
+	<author organization="idearefuge" href="http://idearefuge.com"
+		email="me@reidburke.com">
+		Reid Burke
+	</author>
+	
+	<widget base="http://apps.idearefuge.com/bp/weekend">
+		<preview>
+			<icon>icon</icon>
+			<label>Foodr</label>
+		</preview>
+
+		<shortcuts>
+			<item default="true">
+				<label>Open</label>
+				<href>index.php</href>
+			</item>
+		</shortcuts>
+	</widget>
+
+</config>

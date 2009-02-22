@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery xmlns="http://mobile.yahoo.com/widgets/schema/1.0/gallery/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://mobile.yahoo.com/widgets/schema/1.0/gallery/ http://mobile.yahoo.com/widgets/schema/1.0/gallery/">
+    <description lang="en">Rate menu items from restaurants.</description>
+    <tags>
+        <tag>location</tag>
+        <tag>restaurant</tag>
+        <tag>fireeagle</tag>
+    </tags>
+</gallery>
