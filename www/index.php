@@ -1,14 +1,12 @@
 <?php
 /**
- * Foodr / WeekendApps
+ * OpenSocial WeekendApps
  * by Reid Burke
- *
  */
 
-header('Content-Type: application/x-blueprint+xml');
-header('Cache-Control: no-cache');
-?>
+require 'inc/lib.php';
 
+?>
 <page style="list">
     <models>
         <model>
@@ -17,16 +15,10 @@ header('Cache-Control: no-cache');
                     <search-location/>
                 </data>
             </instance>
-            <submission method="urlencoded-post" resource="index.php"/>
+            <submission method="urlencoded-post" resource="search.php"/>
         </model>
     </models>
-    <page-header>
-        <masthead>
-            <layout-items>
-                <block class="title">Foodr!</block>
-            </layout-items>
-        </masthead>
-    </page-header>
+<?php echo renderHeader(); ?>
     <content>
         <module>
             <block>Find what's on the menu!</block>
@@ -47,4 +39,5 @@ header('Cache-Control: no-cache');
             </placard>
         </module>
     </content>
+<?php echo renderFooter(); ?>
 </page>
